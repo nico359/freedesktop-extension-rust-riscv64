@@ -1,3 +1,11 @@
+# Riscv specific part:
+As with the Freedesktop and Gnome runtime as well, you can add the (my) repo with the following command: 
+```
+flatpak remote-add flatpak-repo-riscv64 https://flatpak.ambatunat.buzz/repo/nico359-riscv64.flatpakrepo
+```
+Alternatively you can just download the .flatpakrepo file and add it with the graphical app of your choice (e.g. Gnome Software, KDE Discover, etc.):  
+https://flatpak.ambatunat.buzz/repo/nico359-riscv64.flatpakrepo
+
 # SDK Extension for Rust stable
 
 This extension contains various components of the [Rust](https://www.rust-lang.org) stable toolchain.
